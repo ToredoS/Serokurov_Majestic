@@ -1,0 +1,33 @@
+# --- Unreal Engine 5 .gitignore ---
+
+# Локальные/пересоздаваемые папки
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+
+# Плагины (если нет своих кастомных плагинов с исходниками)
+# Plugins/
+
+# Билды
+Build/
+
+# Файлы, генерируемые IDE/движком
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Манифесты и прочий шум
+Manifest.json
+CrashReportClient/
+
+# Кэши
+*.uasset.dep
